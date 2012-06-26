@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BA7E15515987A2900A11FDA /* NSData+SYPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E14315987A2900A11FDA /* NSData+SYPFramework.h */; };
+		9BA7E15615987A2900A11FDA /* NSData+SYPFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E14415987A2900A11FDA /* NSData+SYPFramework.m */; };
+		9BA7E15715987A2900A11FDA /* NSString+SYPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E14515987A2900A11FDA /* NSString+SYPFramework.h */; };
+		9BA7E15815987A2900A11FDA /* NSString+SYPFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E14615987A2900A11FDA /* NSString+SYPFramework.m */; };
+		9BA7E15915987A2900A11FDA /* SYPFileHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E14815987A2900A11FDA /* SYPFileHandle.h */; };
+		9BA7E15A15987A2900A11FDA /* SYPFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E14915987A2900A11FDA /* SYPFileHandle.m */; };
+		9BA7E15B15987A2900A11FDA /* SYPFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E14A15987A2900A11FDA /* SYPFileManager.h */; };
+		9BA7E15C15987A2900A11FDA /* SYPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E14B15987A2900A11FDA /* SYPFileManager.m */; };
+		9BA7E15D15987A2900A11FDA /* SYPLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E14D15987A2900A11FDA /* SYPLog.h */; };
+		9BA7E15E15987A2900A11FDA /* SYPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E14E15987A2900A11FDA /* SYPLog.m */; };
+		9BA7E15F15987A2900A11FDA /* SYPSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E15015987A2900A11FDA /* SYPSingleton.h */; };
+		9BA7E16015987A2900A11FDA /* SYPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E15115987A2900A11FDA /* SYPSingleton.m */; };
+		9BA7E16115987A2900A11FDA /* SYPTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E15315987A2900A11FDA /* SYPTimer.h */; };
+		9BA7E16215987A2900A11FDA /* SYPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E15415987A2900A11FDA /* SYPTimer.m */; };
+		9BA7E19715987B1D00A11FDA /* SYPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E18515987B1C00A11FDA /* SYPDefines.h */; };
+		9BA7E19815987B1D00A11FDA /* SYPError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E18615987B1C00A11FDA /* SYPError.h */; };
+		9BA7E19915987B1D00A11FDA /* SYPPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E18815987B1C00A11FDA /* SYPPathManager.h */; };
+		9BA7E19A15987B1D00A11FDA /* SYPPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E18915987B1C00A11FDA /* SYPPathManager.m */; };
+		9BA7E19B15987B1D00A11FDA /* SYPDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E18C15987B1C00A11FDA /* SYPDebug.h */; };
+		9BA7E19C15987B1D00A11FDA /* SYPDebug.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E18D15987B1C00A11FDA /* SYPDebug.mm */; };
+		9BA7E19D15987B1D00A11FDA /* SYPException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E18E15987B1C00A11FDA /* SYPException.h */; };
+		9BA7E19E15987B1D00A11FDA /* SYPException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E18F15987B1C00A11FDA /* SYPException.m */; };
+		9BA7E19F15987B1D00A11FDA /* SYPObejctCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E19015987B1D00A11FDA /* SYPObejctCRuntime.h */; };
+		9BA7E1A015987B1D00A11FDA /* SYPObejctCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E19115987B1D00A11FDA /* SYPObejctCRuntime.m */; };
+		9BA7E1A215987B1D00A11FDA /* SYPUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E19315987B1D00A11FDA /* SYPUtility.m */; };
+		9BA7E1A315987B1D00A11FDA /* OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E19415987B1D00A11FDA /* OpenUDID.h */; };
+		9BA7E1A415987B1D00A11FDA /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E19515987B1D00A11FDA /* OpenUDID.m */; };
+		9BA7E1A615987B9E00A11FDA /* SYPUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7E1A515987B9E00A11FDA /* SYPUtility.h */; };
+		9BA7E1D61599CFE900A11FDA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD002A21591E27600024458 /* CoreFoundation.framework */; };
+		9BA7E1D71599CFFB00A11FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD0028D1591E23900024458 /* Foundation.framework */; };
 		9BD002A91591E27600024458 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BD002A71591E27600024458 /* InfoPlist.strings */; };
 		9BD002AF1591E37000024458 /* SYPFrameWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD002931591E23900024458 /* SYPFrameWork.m */; };
 		9BD002B01591E37C00024458 /* SYPFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD002921591E23900024458 /* SYPFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,6 +44,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BA7E14315987A2900A11FDA /* NSData+SYPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SYPFramework.h"; sourceTree = "<group>"; };
+		9BA7E14415987A2900A11FDA /* NSData+SYPFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SYPFramework.m"; sourceTree = "<group>"; };
+		9BA7E14515987A2900A11FDA /* NSString+SYPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYPFramework.h"; sourceTree = "<group>"; };
+		9BA7E14615987A2900A11FDA /* NSString+SYPFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYPFramework.m"; sourceTree = "<group>"; };
+		9BA7E14815987A2900A11FDA /* SYPFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPFileHandle.h; sourceTree = "<group>"; };
+		9BA7E14915987A2900A11FDA /* SYPFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPFileHandle.m; sourceTree = "<group>"; };
+		9BA7E14A15987A2900A11FDA /* SYPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPFileManager.h; sourceTree = "<group>"; };
+		9BA7E14B15987A2900A11FDA /* SYPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPFileManager.m; sourceTree = "<group>"; };
+		9BA7E14D15987A2900A11FDA /* SYPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPLog.h; sourceTree = "<group>"; };
+		9BA7E14E15987A2900A11FDA /* SYPLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPLog.m; sourceTree = "<group>"; };
+		9BA7E15015987A2900A11FDA /* SYPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPSingleton.h; sourceTree = "<group>"; };
+		9BA7E15115987A2900A11FDA /* SYPSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPSingleton.m; sourceTree = "<group>"; };
+		9BA7E15315987A2900A11FDA /* SYPTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPTimer.h; sourceTree = "<group>"; };
+		9BA7E15415987A2900A11FDA /* SYPTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPTimer.m; sourceTree = "<group>"; };
+		9BA7E18515987B1C00A11FDA /* SYPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPDefines.h; sourceTree = "<group>"; };
+		9BA7E18615987B1C00A11FDA /* SYPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPError.h; sourceTree = "<group>"; };
+		9BA7E18815987B1C00A11FDA /* SYPPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPPathManager.h; sourceTree = "<group>"; };
+		9BA7E18915987B1C00A11FDA /* SYPPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPPathManager.m; sourceTree = "<group>"; };
+		9BA7E18C15987B1C00A11FDA /* SYPDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPDebug.h; sourceTree = "<group>"; };
+		9BA7E18D15987B1C00A11FDA /* SYPDebug.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SYPDebug.mm; sourceTree = "<group>"; };
+		9BA7E18E15987B1C00A11FDA /* SYPException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPException.h; sourceTree = "<group>"; };
+		9BA7E18F15987B1C00A11FDA /* SYPException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPException.m; sourceTree = "<group>"; };
+		9BA7E19015987B1D00A11FDA /* SYPObejctCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPObejctCRuntime.h; sourceTree = "<group>"; };
+		9BA7E19115987B1D00A11FDA /* SYPObejctCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPObejctCRuntime.m; sourceTree = "<group>"; };
+		9BA7E19315987B1D00A11FDA /* SYPUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPUtility.m; sourceTree = "<group>"; };
+		9BA7E19415987B1D00A11FDA /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		9BA7E19515987B1D00A11FDA /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		9BA7E1A515987B9E00A11FDA /* SYPUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPUtility.h; sourceTree = "<group>"; };
 		9BD0028D1591E23900024458 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BD002921591E23900024458 /* SYPFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPFrameWork.h; sourceTree = "<group>"; };
 		9BD002931591E23900024458 /* SYPFrameWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPFrameWork.m; sourceTree = "<group>"; };
@@ -29,12 +87,129 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA7E1D71599CFFB00A11FDA /* Foundation.framework in Frameworks */,
+				9BA7E1D61599CFE900A11FDA /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BA7E14115987A2900A11FDA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E14C15987A2900A11FDA /* SYPLog */,
+				9BA7E18415987B1C00A11FDA /* SYPDefine */,
+				9BA7E18715987B1C00A11FDA /* SYPPathManager */,
+				9BA7E18A15987B1C00A11FDA /* SYPSetting */,
+				9BA7E18B15987B1C00A11FDA /* SYPUtility */,
+				9BA7E14F15987A2900A11FDA /* SYPSingleton */,
+				9BA7E19615987B1D00A11FDA /* SYPViewStack */,
+				9BA7E14215987A2900A11FDA /* SYPExtend */,
+				9BA7E14715987A2900A11FDA /* SYPFile */,
+				9BA7E15215987A2900A11FDA /* SYPTimer */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9BA7E14215987A2900A11FDA /* SYPExtend */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E14315987A2900A11FDA /* NSData+SYPFramework.h */,
+				9BA7E14415987A2900A11FDA /* NSData+SYPFramework.m */,
+				9BA7E14515987A2900A11FDA /* NSString+SYPFramework.h */,
+				9BA7E14615987A2900A11FDA /* NSString+SYPFramework.m */,
+			);
+			path = SYPExtend;
+			sourceTree = "<group>";
+		};
+		9BA7E14715987A2900A11FDA /* SYPFile */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E14815987A2900A11FDA /* SYPFileHandle.h */,
+				9BA7E14915987A2900A11FDA /* SYPFileHandle.m */,
+				9BA7E14A15987A2900A11FDA /* SYPFileManager.h */,
+				9BA7E14B15987A2900A11FDA /* SYPFileManager.m */,
+			);
+			path = SYPFile;
+			sourceTree = "<group>";
+		};
+		9BA7E14C15987A2900A11FDA /* SYPLog */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E14D15987A2900A11FDA /* SYPLog.h */,
+				9BA7E14E15987A2900A11FDA /* SYPLog.m */,
+			);
+			path = SYPLog;
+			sourceTree = "<group>";
+		};
+		9BA7E14F15987A2900A11FDA /* SYPSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E15015987A2900A11FDA /* SYPSingleton.h */,
+				9BA7E15115987A2900A11FDA /* SYPSingleton.m */,
+			);
+			path = SYPSingleton;
+			sourceTree = "<group>";
+		};
+		9BA7E15215987A2900A11FDA /* SYPTimer */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E15315987A2900A11FDA /* SYPTimer.h */,
+				9BA7E15415987A2900A11FDA /* SYPTimer.m */,
+			);
+			path = SYPTimer;
+			sourceTree = "<group>";
+		};
+		9BA7E18415987B1C00A11FDA /* SYPDefine */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E18515987B1C00A11FDA /* SYPDefines.h */,
+				9BA7E18615987B1C00A11FDA /* SYPError.h */,
+			);
+			path = SYPDefine;
+			sourceTree = "<group>";
+		};
+		9BA7E18715987B1C00A11FDA /* SYPPathManager */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E18815987B1C00A11FDA /* SYPPathManager.h */,
+				9BA7E18915987B1C00A11FDA /* SYPPathManager.m */,
+			);
+			path = SYPPathManager;
+			sourceTree = "<group>";
+		};
+		9BA7E18A15987B1C00A11FDA /* SYPSetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SYPSetting;
+			sourceTree = "<group>";
+		};
+		9BA7E18B15987B1C00A11FDA /* SYPUtility */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7E18C15987B1C00A11FDA /* SYPDebug.h */,
+				9BA7E18D15987B1C00A11FDA /* SYPDebug.mm */,
+				9BA7E18E15987B1C00A11FDA /* SYPException.h */,
+				9BA7E18F15987B1C00A11FDA /* SYPException.m */,
+				9BA7E19015987B1D00A11FDA /* SYPObejctCRuntime.h */,
+				9BA7E19115987B1D00A11FDA /* SYPObejctCRuntime.m */,
+				9BA7E1A515987B9E00A11FDA /* SYPUtility.h */,
+				9BA7E19315987B1D00A11FDA /* SYPUtility.m */,
+				9BA7E19415987B1D00A11FDA /* OpenUDID.h */,
+				9BA7E19515987B1D00A11FDA /* OpenUDID.m */,
+			);
+			path = SYPUtility;
+			sourceTree = "<group>";
+		};
+		9BA7E19615987B1D00A11FDA /* SYPViewStack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SYPViewStack;
+			sourceTree = "<group>";
+		};
 		9BD0027F1591E23800024458 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +242,7 @@
 			children = (
 				9BD002921591E23900024458 /* SYPFrameWork.h */,
 				9BD002931591E23900024458 /* SYPFrameWork.m */,
+				9BA7E14115987A2900A11FDA /* Class */,
 			);
 			path = SYPFrameWork;
 			sourceTree = "<group>";
@@ -98,6 +274,21 @@
 			files = (
 				9BD002B01591E37C00024458 /* SYPFrameWork.h in Headers */,
 				9BD002B11591E38500024458 /* SYPFrameWork-Prefix.pch in Headers */,
+				9BA7E15515987A2900A11FDA /* NSData+SYPFramework.h in Headers */,
+				9BA7E15715987A2900A11FDA /* NSString+SYPFramework.h in Headers */,
+				9BA7E15915987A2900A11FDA /* SYPFileHandle.h in Headers */,
+				9BA7E15B15987A2900A11FDA /* SYPFileManager.h in Headers */,
+				9BA7E15D15987A2900A11FDA /* SYPLog.h in Headers */,
+				9BA7E15F15987A2900A11FDA /* SYPSingleton.h in Headers */,
+				9BA7E16115987A2900A11FDA /* SYPTimer.h in Headers */,
+				9BA7E19715987B1D00A11FDA /* SYPDefines.h in Headers */,
+				9BA7E19815987B1D00A11FDA /* SYPError.h in Headers */,
+				9BA7E19915987B1D00A11FDA /* SYPPathManager.h in Headers */,
+				9BA7E19B15987B1D00A11FDA /* SYPDebug.h in Headers */,
+				9BA7E19D15987B1D00A11FDA /* SYPException.h in Headers */,
+				9BA7E19F15987B1D00A11FDA /* SYPObejctCRuntime.h in Headers */,
+				9BA7E1A315987B1D00A11FDA /* OpenUDID.h in Headers */,
+				9BA7E1A615987B9E00A11FDA /* SYPUtility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +356,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD002AF1591E37000024458 /* SYPFrameWork.m in Sources */,
+				9BA7E15615987A2900A11FDA /* NSData+SYPFramework.m in Sources */,
+				9BA7E15815987A2900A11FDA /* NSString+SYPFramework.m in Sources */,
+				9BA7E15A15987A2900A11FDA /* SYPFileHandle.m in Sources */,
+				9BA7E15C15987A2900A11FDA /* SYPFileManager.m in Sources */,
+				9BA7E15E15987A2900A11FDA /* SYPLog.m in Sources */,
+				9BA7E16015987A2900A11FDA /* SYPSingleton.m in Sources */,
+				9BA7E16215987A2900A11FDA /* SYPTimer.m in Sources */,
+				9BA7E19A15987B1D00A11FDA /* SYPPathManager.m in Sources */,
+				9BA7E19C15987B1D00A11FDA /* SYPDebug.mm in Sources */,
+				9BA7E19E15987B1D00A11FDA /* SYPException.m in Sources */,
+				9BA7E1A015987B1D00A11FDA /* SYPObejctCRuntime.m in Sources */,
+				9BA7E1A215987B1D00A11FDA /* SYPUtility.m in Sources */,
+				9BA7E1A415987B1D00A11FDA /* OpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +394,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -212,6 +417,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -227,6 +433,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP1.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYPFrameWork/SYPFrameWork-Prefix.pch";
@@ -249,6 +459,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP1.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYPFrameWork/SYPFrameWork-Prefix.pch";
@@ -284,6 +498,7 @@
 				9BD002AD1591E27600024458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
