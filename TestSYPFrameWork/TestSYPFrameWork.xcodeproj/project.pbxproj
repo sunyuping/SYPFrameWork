@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B18D079159C6D0400A673F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B18D078159C6D0400A673F9 /* UIKit.framework */; };
+		9B18D07B159C6D0400A673F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B18D07A159C6D0400A673F9 /* Foundation.framework */; };
+		9B18D07D159C6D0400A673F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B18D07C159C6D0400A673F9 /* CoreGraphics.framework */; };
+		9B18D083159C6D0400A673F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B18D081159C6D0400A673F9 /* InfoPlist.strings */; };
+		9B18D085159C6D0400A673F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B18D084159C6D0400A673F9 /* main.m */; };
+		9B18D089159C6D0400A673F9 /* SYPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B18D088159C6D0400A673F9 /* SYPAppDelegate.m */; };
+		9B18D09A159C6EE600A673F9 /* SYPFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B18D099159C6EE600A673F9 /* SYPFrameWork.framework */; };
+		9B18D09C159C6F0400A673F9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B18D09B159C6F0400A673F9 /* libz.dylib */; };
+		9B18D09E159C6F0A00A673F9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B18D09D159C6F0A00A673F9 /* libc++.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B18D074159C6D0400A673F9 /* TestSYPFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSYPFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B18D078159C6D0400A673F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B18D07A159C6D0400A673F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B18D07C159C6D0400A673F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B18D080159C6D0400A673F9 /* TestSYPFrameWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSYPFrameWork-Info.plist"; sourceTree = "<group>"; };
+		9B18D082159C6D0400A673F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B18D084159C6D0400A673F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B18D086159C6D0400A673F9 /* TestSYPFrameWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSYPFrameWork-Prefix.pch"; sourceTree = "<group>"; };
+		9B18D087159C6D0400A673F9 /* SYPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPAppDelegate.h; sourceTree = "<group>"; };
+		9B18D088159C6D0400A673F9 /* SYPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPAppDelegate.m; sourceTree = "<group>"; };
+		9B18D099159C6EE600A673F9 /* SYPFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYPFrameWork.framework; sourceTree = "<group>"; };
+		9B18D09B159C6F0400A673F9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9B18D09D159C6F0A00A673F9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B18D071159C6D0400A673F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B18D09E159C6F0A00A673F9 /* libc++.dylib in Frameworks */,
+				9B18D09C159C6F0400A673F9 /* libz.dylib in Frameworks */,
+				9B18D079159C6D0400A673F9 /* UIKit.framework in Frameworks */,
+				9B18D07B159C6D0400A673F9 /* Foundation.framework in Frameworks */,
+				9B18D07D159C6D0400A673F9 /* CoreGraphics.framework in Frameworks */,
+				9B18D09A159C6EE600A673F9 /* SYPFrameWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B18D069159C6D0400A673F9 = {
+			isa = PBXGroup;
+			children = (
+				9B18D09D159C6F0A00A673F9 /* libc++.dylib */,
+				9B18D09B159C6F0400A673F9 /* libz.dylib */,
+				9B18D07E159C6D0400A673F9 /* TestSYPFrameWork */,
+				9B18D077159C6D0400A673F9 /* Frameworks */,
+				9B18D075159C6D0400A673F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B18D075159C6D0400A673F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B18D074159C6D0400A673F9 /* TestSYPFrameWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B18D077159C6D0400A673F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B18D099159C6EE600A673F9 /* SYPFrameWork.framework */,
+				9B18D078159C6D0400A673F9 /* UIKit.framework */,
+				9B18D07A159C6D0400A673F9 /* Foundation.framework */,
+				9B18D07C159C6D0400A673F9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B18D07E159C6D0400A673F9 /* TestSYPFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				9B18D087159C6D0400A673F9 /* SYPAppDelegate.h */,
+				9B18D088159C6D0400A673F9 /* SYPAppDelegate.m */,
+				9B18D07F159C6D0400A673F9 /* Supporting Files */,
+			);
+			path = TestSYPFrameWork;
+			sourceTree = "<group>";
+		};
+		9B18D07F159C6D0400A673F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B18D080159C6D0400A673F9 /* TestSYPFrameWork-Info.plist */,
+				9B18D081159C6D0400A673F9 /* InfoPlist.strings */,
+				9B18D084159C6D0400A673F9 /* main.m */,
+				9B18D086159C6D0400A673F9 /* TestSYPFrameWork-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B18D073159C6D0400A673F9 /* TestSYPFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B18D08C159C6D0400A673F9 /* Build configuration list for PBXNativeTarget "TestSYPFrameWork" */;
+			buildPhases = (
+				9B18D070159C6D0400A673F9 /* Sources */,
+				9B18D071159C6D0400A673F9 /* Frameworks */,
+				9B18D072159C6D0400A673F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSYPFrameWork;
+			productName = TestSYPFrameWork;
+			productReference = 9B18D074159C6D0400A673F9 /* TestSYPFrameWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B18D06B159C6D0400A673F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SYP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "sun yuping";
+			};
+			buildConfigurationList = 9B18D06E159C6D0400A673F9 /* Build configuration list for PBXProject "TestSYPFrameWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B18D069159C6D0400A673F9;
+			productRefGroup = 9B18D075159C6D0400A673F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B18D073159C6D0400A673F9 /* TestSYPFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B18D072159C6D0400A673F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B18D083159C6D0400A673F9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B18D070159C6D0400A673F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B18D085159C6D0400A673F9 /* main.m in Sources */,
+				9B18D089159C6D0400A673F9 /* SYPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B18D081159C6D0400A673F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B18D082159C6D0400A673F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B18D08A159C6D0400A673F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B18D08B159C6D0400A673F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B18D08D159C6D0400A673F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSYPFrameWork/TestSYPFrameWork-Prefix.pch";
+				INFOPLIST_FILE = "TestSYPFrameWork/TestSYPFrameWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B18D08E159C6D0400A673F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSYPFrameWork/TestSYPFrameWork-Prefix.pch";
+				INFOPLIST_FILE = "TestSYPFrameWork/TestSYPFrameWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B18D06E159C6D0400A673F9 /* Build configuration list for PBXProject "TestSYPFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B18D08A159C6D0400A673F9 /* Debug */,
+				9B18D08B159C6D0400A673F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B18D08C159C6D0400A673F9 /* Build configuration list for PBXNativeTarget "TestSYPFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B18D08D159C6D0400A673F9 /* Debug */,
+				9B18D08E159C6D0400A673F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B18D06B159C6D0400A673F9 /* Project object */;
+}
