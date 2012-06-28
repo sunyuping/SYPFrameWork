@@ -22,5 +22,6 @@
 - (void)TestShow
 {
     NSLog(@"TestFramework");
+    SYPLOGI("1111====%D", 12);
 }
 @end

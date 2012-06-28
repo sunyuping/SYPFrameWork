@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "SYPLog.h"
 @interface SYPFrameWork : NSObject
 -(void)TestShow;
 @end

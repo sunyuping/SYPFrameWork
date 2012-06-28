@@ -51,7 +51,7 @@ SYP_IMPLETEMENT_SINGLETON(SYPException,defaultException)
     for (int i =0 ;i<n_fatal_signals; i++) {
         if (sigaction(fatal_signals[i], &sa, NULL) != 0) {
             int err = errno;
-            SYPASSERT(0,"Signal registration for %s failed: %s", strsignal(fatal_signals[i]), strerror(err));
+            NSAssert2(0,@"Signal registration for %s failed: %s", strsignal(fatal_signals[i]), strerror(err));
         }
     }
 
