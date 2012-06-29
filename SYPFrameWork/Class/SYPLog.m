@@ -46,11 +46,10 @@ SYP_IMPLETEMENT_SINGLETON(SYPLog,defaultLog)
     NSLog(@"wrie=====start=%s",tag);
     [_logString setString:@" "];
     NSLog(@"wrie=====_logString=%@",_logString);
-    [NSString SYP_TEST];
-    [_logString appendString:[NSString stringWithCString:tag encoding:NSUTF8StringEncoding]];//[NSString SYP_stringWithCString:tag]];
+    [_logString appendString:[NSString SYP_stringWithCString:tag]];
     [_logString appendString:@" "];
     NSLog(@"wrie=====11111");
-    CFStringAppendFormatAndArguments((CFMutableStringRef)_logString,NULL,(CFStringRef)[NSString syp_stringWithCString:format],arg);
+    CFStringAppendFormatAndArguments((CFMutableStringRef)_logString,NULL,(CFStringRef)[NSString SYP_stringWithCString:format],arg);
     NSLog(@"wrie=====22222");
     if (!(filename==NULL || functionName==NULL)) {
         [_logString appendString:@"\r\n"];

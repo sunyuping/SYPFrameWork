@@ -9,8 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (SYPFramework)
-+(NSString*) syp_stringWithCString:(const char *)bytes;
++(NSString*) SYP_stringWithCString:(const char *)bytes;
 +(NSString*) SYP_stringWithCString:(const char *)bytes length:(NSUInteger)length;
 -(NSString*) SYP_stringFromMD5;
-+(NSString*) SYP_TEST;
 @end

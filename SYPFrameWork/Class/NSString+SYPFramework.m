@@ -10,7 +10,7 @@
 #include <CommonCrypto/CommonDigest.h>
 
 @implementation NSString (SYPFramework)
-+(NSString*) syp_stringWithCString:(const char *)bytes {
++(NSString*) SYP_stringWithCString:(const char *)bytes {
     return [NSString stringWithCString:bytes encoding:NSUTF8StringEncoding];
 }
 +(NSString*) SYP_stringWithCString:(const char *)bytes length:(NSUInteger)length {
@@ -29,8 +29,5 @@
         [outputString appendFormat:@"%02x",outputBuffer[count]];
     }
     return [outputString autorelease];
-}
-+(NSString*)SYP_TEST{
-    return @"TEST";
 }
 @end
