@@ -8,6 +8,8 @@
 
 #import "SYPAppDelegate.h"
 #import "SYPFrameWork/SYPFrameWork.h"
+#import "SYPTestGPUImageViewController.h"
+
 @implementation SYPAppDelegate
 
 @synthesize window = _window;
@@ -23,12 +25,14 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    SYPTestGPUImageViewController *rootViewController = [[SYPTestGPUImageViewController alloc] init];
+    [self.window addSubview:rootViewController.view];
     
     SYPFrameWork *aa = [[SYPFrameWork alloc] init];
     [aa TestShow];
     [aa release];
     
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

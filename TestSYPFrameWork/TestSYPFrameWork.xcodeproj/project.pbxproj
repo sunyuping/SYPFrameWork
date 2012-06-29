@@ -14,6 +14,13 @@
 		9BA8282A159D9F4500CEA110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA82829159D9F4500CEA110 /* main.m */; };
 		9BA8282E159D9F4500CEA110 /* SYPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8282D159D9F4500CEA110 /* SYPAppDelegate.m */; };
 		9BA8283D159D9F5400CEA110 /* SYPFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8283C159D9F4C00CEA110 /* SYPFrameWork.framework */; };
+		9BA82C7A159DB11700CEA110 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82C79159DB10800CEA110 /* GPUImage.framework */; };
+		9BA82C7C159DB19000CEA110 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82C7B159DB19000CEA110 /* CoreMedia.framework */; };
+		9BA82C7E159DB19800CEA110 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82C7D159DB19800CEA110 /* CoreVideo.framework */; };
+		9BA82C80159DB1A000CEA110 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82C7F159DB1A000CEA110 /* OpenGLES.framework */; };
+		9BA82C82159DB1AA00CEA110 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82C81159DB1AA00CEA110 /* QuartzCore.framework */; };
+		9BA82C84159DB1B000CEA110 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82C83159DB1B000CEA110 /* AVFoundation.framework */; };
+		9BA82C8A159DB25800CEA110 /* SYPTestGPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA82C89159DB25800CEA110 /* SYPTestGPUImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +30,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 9B0B5785159D5AEE002C720C;
 			remoteInfo = SYPFrameWork;
+		};
+		9BA82C78159DB10800CEA110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA82C71159DB10800CEA110 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9BA82A9E159DAE5400CEA110;
+			remoteInfo = GPUImage;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +52,14 @@
 		9BA8282C159D9F4500CEA110 /* SYPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPAppDelegate.h; sourceTree = "<group>"; };
 		9BA8282D159D9F4500CEA110 /* SYPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPAppDelegate.m; sourceTree = "<group>"; };
 		9BA82834159D9F4C00CEA110 /* SYPFrameWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SYPFrameWork.xcodeproj; path = ../SYPFrameWork.xcodeproj; sourceTree = "<group>"; };
+		9BA82C71159DB10800CEA110 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../GPUImage_framework/GPUImage/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		9BA82C7B159DB19000CEA110 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9BA82C7D159DB19800CEA110 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9BA82C7F159DB1A000CEA110 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9BA82C81159DB1AA00CEA110 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9BA82C83159DB1B000CEA110 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9BA82C88159DB25800CEA110 /* SYPTestGPUImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPTestGPUImageViewController.h; sourceTree = "<group>"; };
+		9BA82C89159DB25800CEA110 /* SYPTestGPUImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPTestGPUImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +67,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA82C84159DB1B000CEA110 /* AVFoundation.framework in Frameworks */,
+				9BA82C82159DB1AA00CEA110 /* QuartzCore.framework in Frameworks */,
+				9BA82C80159DB1A000CEA110 /* OpenGLES.framework in Frameworks */,
+				9BA82C7E159DB19800CEA110 /* CoreVideo.framework in Frameworks */,
+				9BA82C7C159DB19000CEA110 /* CoreMedia.framework in Frameworks */,
+				9BA82C7A159DB11700CEA110 /* GPUImage.framework in Frameworks */,
 				9BA8283D159D9F5400CEA110 /* SYPFrameWork.framework in Frameworks */,
 				9BA8281E159D9F4500CEA110 /* UIKit.framework in Frameworks */,
 				9BA82820159D9F4500CEA110 /* Foundation.framework in Frameworks */,
@@ -75,7 +103,13 @@
 		9BA8281C159D9F4500CEA110 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BA82C71159DB10800CEA110 /* GPUImage.xcodeproj */,
 				9BA82834159D9F4C00CEA110 /* SYPFrameWork.xcodeproj */,
+				9BA82C83159DB1B000CEA110 /* AVFoundation.framework */,
+				9BA82C81159DB1AA00CEA110 /* QuartzCore.framework */,
+				9BA82C7F159DB1A000CEA110 /* OpenGLES.framework */,
+				9BA82C7D159DB19800CEA110 /* CoreVideo.framework */,
+				9BA82C7B159DB19000CEA110 /* CoreMedia.framework */,
 				9BA8281D159D9F4500CEA110 /* UIKit.framework */,
 				9BA8281F159D9F4500CEA110 /* Foundation.framework */,
 				9BA82821159D9F4500CEA110 /* CoreGraphics.framework */,
@@ -88,6 +122,8 @@
 			children = (
 				9BA8282C159D9F4500CEA110 /* SYPAppDelegate.h */,
 				9BA8282D159D9F4500CEA110 /* SYPAppDelegate.m */,
+				9BA82C88159DB25800CEA110 /* SYPTestGPUImageViewController.h */,
+				9BA82C89159DB25800CEA110 /* SYPTestGPUImageViewController.m */,
 				9BA82824159D9F4500CEA110 /* Supporting Files */,
 			);
 			path = TestSYPFramework;
@@ -108,6 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				9BA8283C159D9F4C00CEA110 /* SYPFrameWork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA82C72159DB10800CEA110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA82C79159DB10800CEA110 /* GPUImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +198,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 9BA82C72159DB10800CEA110 /* Products */;
+					ProjectRef = 9BA82C71159DB10800CEA110 /* GPUImage.xcodeproj */;
+				},
+				{
 					ProductGroup = 9BA82835159D9F4C00CEA110 /* Products */;
 					ProjectRef = 9BA82834159D9F4C00CEA110 /* SYPFrameWork.xcodeproj */;
 				},
@@ -171,6 +219,13 @@
 			fileType = wrapper.framework.static;
 			path = SYPFrameWork.framework;
 			remoteRef = 9BA8283B159D9F4C00CEA110 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BA82C79159DB10800CEA110 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = GPUImage.framework;
+			remoteRef = 9BA82C78159DB10800CEA110 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -193,6 +248,7 @@
 			files = (
 				9BA8282A159D9F4500CEA110 /* main.m in Sources */,
 				9BA8282E159D9F4500CEA110 /* SYPAppDelegate.m in Sources */,
+				9BA82C8A159DB25800CEA110 /* SYPTestGPUImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
