@@ -2,8 +2,8 @@
 //  main.m
 //  TestSYPFrameWork
 //
-//  Created by sun yuping on 12-6-28.
-//  Copyright (c) 2012年 sun yuping. All rights reserved.
+//  Created by 玉平 孙 on 12-6-29.
+//  Copyright (c) 2012年 RenRen.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

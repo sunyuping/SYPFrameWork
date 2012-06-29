@@ -2,10 +2,9 @@
 //  SYPLog.h
 //  SYPFrameWork
 //
-//  Created by 玉平 孙 on 12-6-20.
+//  Created by 玉平 孙 on 12-6-29.
 //  Copyright (c) 2012年 RenRen.com. All rights reserved.
 //
-
 /*!
  For debugging:
  Go into the "Get Info" contextual menu of your (test) executable (inside the "Executables" group in the left panel of XCode). 
@@ -27,15 +26,13 @@
  For malloc debugging see: http://developer.apple.com/mac/library/documentation/Performance/Conceptual/ManagingMemory/Articles/MallocDebug.html
  */
 
+#import <Foundation/Foundation.h>
 #import "SYPDefines.h"
 #import "SYPSingleton.h"
-#import "SYPFileHandle.h"
-#import "SYPFileManager.h"
-#import "SYPPathManager.h"
 
-@interface SYPLog : NSObject {
+
+@interface SYPLog : NSObject{
 @private
-    SYPFileHandle* _fileHandle;
     NSDateFormatter* _dateFormatter;
     NSMutableString* _logString;
 }
@@ -43,7 +40,6 @@
 
 +(SYPLog*)defaultLog;
 @end
-
 SYPEXTERN void SYPLogWrite(const char* tag,const char* fileName,const char* functionName,int linenum,const char* format,...) ;
 SYPEXTERN void SYPLogStack(void);
 SYPEXTERN void SYPLogNSError(NSError* aError);

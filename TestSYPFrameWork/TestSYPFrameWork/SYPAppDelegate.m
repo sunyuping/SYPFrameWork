@@ -2,14 +2,16 @@
 //  SYPAppDelegate.m
 //  TestSYPFrameWork
 //
-//  Created by sun yuping on 12-6-28.
-//  Copyright (c) 2012年 sun yuping. All rights reserved.
+//  Created by 玉平 孙 on 12-6-29.
+//  Copyright (c) 2012年 RenRen.com. All rights reserved.
 //
 
 #import "SYPAppDelegate.h"
 #import "SYPFrameWork/SYPFrameWork.h"
-#import "SYPFrameWork/SYPLog.h"
+#import "SYPFrameWork/class/NSString+SYPFramework.h"
 @implementation SYPAppDelegate
+
+@synthesize window = _window;
 
 - (void)dealloc
 {
@@ -23,10 +25,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    SYPFrameWork *aa=[[SYPFrameWork alloc] init];
+    SYPFrameWork *aa = [[SYPFrameWork alloc] init];
     [aa TestShow];
-    SYPLOGI("ceshi===%D", 123);
-    
+    [aa release];
     return YES;
 }
 

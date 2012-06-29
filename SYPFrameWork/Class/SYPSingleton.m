@@ -1,13 +1,12 @@
 //
 //  SYPSingleton.m
-//  SYPFramework
+//  SYPFrameWork
 //
-//  Created by 玉平 孙 on 12-6-20.
+//  Created by 玉平 孙 on 12-6-29.
 //  Copyright (c) 2012年 RenRen.com. All rights reserved.
 //
 
 #import "SYPSingleton.h"
-#import "NSString+SYPFramework.h"
 
 @interface SYPSingleton(PrivateMethod)
 +(id)allocWithZone:(NSZone*)zone;
@@ -97,3 +96,4 @@ static SYPSingleton* singleton = nil;
     return [_singletonArray objectForKey:className];
 }
 @end
+

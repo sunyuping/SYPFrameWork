@@ -7,7 +7,7 @@
 //
 
 #import "SYPFrameWork.h"
-
+#import "SYPLog.h"
 @implementation SYPFrameWork
 - (id)init
 {

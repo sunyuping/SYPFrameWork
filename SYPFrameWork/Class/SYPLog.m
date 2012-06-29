@@ -2,12 +2,14 @@
 //  SYPLog.m
 //  SYPFrameWork
 //
-//  Created by 玉平 孙 on 12-6-20.
+//  Created by 玉平 孙 on 12-6-29.
 //  Copyright (c) 2012年 RenRen.com. All rights reserved.
 //
 
 #import "SYPLog.h"
+#import <execinfo.h>
 #import "NSString+SYPFramework.h"
+
 
 SYP_DECLARE_SINGLETON(SYPLog)
 
@@ -20,31 +22,36 @@ SYP_IMPLETEMENT_SINGLETON(SYPLog,defaultLog)
 
 -(id) init {
     [super init];
-    NSMutableString* logFile = [[SYPPathManager defaultPathManager] getLogPath];
-    [logFile appendString:@"log.log"];
-    _fileHandle = [SYPFileHandle fileHandleReplaceFile:logFile mode:SYPFileWriteMode];
-    [_fileHandle retain];
-    
+    //NSMutableString* logFile = [[SYPPathManager defaultPathManager] getLogPath];
+    //[logFile appendString:@"log.log"];
+    //_fileHandle = [SYPFileHandle fileHandleReplaceFile:logFile mode:SYPFileWriteMode];
+    //[_fileHandle retain];
+
     _logString = [NSMutableString stringWithCapacity:1024];
     [_logString retain];
-    
+
     _dateFormatter = [[NSDateFormatter alloc] init];
     [_dateFormatter setDateFormat:@"yyyy-MM-dd HH:MM:SS"];
-    
+
     return self;
 }
 -(void)dealloc {
     SYPRelease(_dateFormatter);
     SYPRelease(_logString);
-    SYPRelease(_fileHandle);                
+    [super dealloc];
+//    SYPRelease(_fileHandle);                
 }
 
 -(void)write:(const char*)tag fileName:(const char*) filename functionName:(const char*) functionName lineNum:(int)lineNum format:(const char*)format arg:(va_list) arg{
+    NSLog(@"wrie=====start=%s",tag);
     [_logString setString:@" "];
-    [_logString appendString:[NSString SYP_stringWithCString:tag]];
+    NSLog(@"wrie=====_logString=%@",_logString);
+    [NSString SYP_TEST];
+    [_logString appendString:[NSString stringWithCString:tag encoding:NSUTF8StringEncoding]];//[NSString SYP_stringWithCString:tag]];
     [_logString appendString:@" "];
-    
-    CFStringAppendFormatAndArguments((CFMutableStringRef)_logString,NULL,(CFStringRef)[NSString SYP_stringWithCString:format],arg);
+    NSLog(@"wrie=====11111");
+    CFStringAppendFormatAndArguments((CFMutableStringRef)_logString,NULL,(CFStringRef)[NSString syp_stringWithCString:format],arg);
+    NSLog(@"wrie=====22222");
     if (!(filename==NULL || functionName==NULL)) {
         [_logString appendString:@"\r\n"];
         [_logString appendFormat:@"filename =%s function =%s line =%d",filename,functionName,lineNum];
@@ -53,7 +60,7 @@ SYP_IMPLETEMENT_SINGLETON(SYPLog,defaultLog)
     NSLog(@"%@",_logString);
     NSDate* currentDate = [NSDate dateWithTimeIntervalSinceNow:0];
     [_logString insertString:[_dateFormatter stringFromDate:currentDate] atIndex:0];
-    [_fileHandle writeData:[_logString UTF8String] length:[_logString length]];
+//    [_fileHandle writeData:[_logString UTF8String] length:[_logString length]];
 }
 -(void)writeStack:(char**) strs callstack:(unsigned int*)callstack count:(int)count {
     [_logString setString:@" "];
@@ -65,7 +72,7 @@ SYP_IMPLETEMENT_SINGLETON(SYPLog,defaultLog)
     
     NSDate* currentDate = [NSDate dateWithTimeIntervalSinceNow:0];
     [_logString insertString:[_dateFormatter stringFromDate:currentDate] atIndex:0];
-    [_fileHandle writeData:[_logString UTF8String] length:[_logString length]];
+//    [_fileHandle writeData:[_logString UTF8String] length:[_logString length]];
 }
 -(void)writeNSError:(NSError*) aError{
     [_logString setString:@" "];
@@ -75,7 +82,7 @@ SYP_IMPLETEMENT_SINGLETON(SYPLog,defaultLog)
     NSLog(@"%@",_logString);
     NSDate* currentDate = [NSDate dateWithTimeIntervalSinceNow:0];
     [_logString insertString:[_dateFormatter stringFromDate:currentDate] atIndex:0];
-    [_fileHandle writeData:[_logString UTF8String] length:[_logString length]];
+//    [_fileHandle writeData:[_logString UTF8String] length:[_logString length]];
 }
 @end
 
