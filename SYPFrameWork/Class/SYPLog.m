@@ -43,14 +43,10 @@ SYP_IMPLETEMENT_SINGLETON(SYPLog,defaultLog)
 }
 
 -(void)write:(const char*)tag fileName:(const char*) filename functionName:(const char*) functionName lineNum:(int)lineNum format:(const char*)format arg:(va_list) arg{
-    NSLog(@"wrie=====start=%s",tag);
     [_logString setString:@" "];
-    NSLog(@"wrie=====_logString=%@",_logString);
     [_logString appendString:[NSString SYP_stringWithCString:tag]];
     [_logString appendString:@" "];
-    NSLog(@"wrie=====11111");
     CFStringAppendFormatAndArguments((CFMutableStringRef)_logString,NULL,(CFStringRef)[NSString SYP_stringWithCString:format],arg);
-    NSLog(@"wrie=====22222");
     if (!(filename==NULL || functionName==NULL)) {
         [_logString appendString:@"\r\n"];
         [_logString appendFormat:@"filename =%s function =%s line =%d",filename,functionName,lineNum];

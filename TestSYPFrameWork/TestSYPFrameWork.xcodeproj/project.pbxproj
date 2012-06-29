@@ -260,7 +260,10 @@
 				GCC_PREFIX_HEADER = "TestSYPFramework/TestSYPFramework-Prefix.pch";
 				INFOPLIST_FILE = "TestSYPFramework/TestSYPFramework-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,7 +276,10 @@
 				GCC_PREFIX_HEADER = "TestSYPFramework/TestSYPFramework-Prefix.pch";
 				INFOPLIST_FILE = "TestSYPFramework/TestSYPFramework-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
