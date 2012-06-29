@@ -9,7 +9,7 @@
 #import "NSString+SYPFramework.h"
 #include <CommonCrypto/CommonDigest.h>
 
-@implementation NSString (SYPFramework1)
+@implementation NSString (SYPFramework)
 +(NSString*) syp_stringWithCString:(const char *)bytes {
     return [NSString stringWithCString:bytes encoding:NSUTF8StringEncoding];
 }

@@ -16,8 +16,8 @@
 		9B586FB1159D7B2600D56F46 /* SYPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B586FAF159D7B2600D56F46 /* SYPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B586FB6159D7C6D00D56F46 /* SYPLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B586FB4159D7C6D00D56F46 /* SYPLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B586FB7159D7C6D00D56F46 /* SYPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B586FB5159D7C6D00D56F46 /* SYPLog.m */; };
-		9B586FEF159D8F6A00D56F46 /* NSString+SYPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B586FED159D8F6A00D56F46 /* NSString+SYPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B586FF7159D96B900D56F46 /* NSString+SYPFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B586FEE159D8F6A00D56F46 /* NSString+SYPFramework.m */; };
+		9BE5B70D159D9EE60000B126 /* NSString+SYPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE5B709159D9EE60000B126 /* NSString+SYPFramework.h */; };
+		9BE5B70E159D9EE60000B126 /* NSString+SYPFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B70A159D9EE60000B126 /* NSString+SYPFramework.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,8 @@
 		9B586FAF159D7B2600D56F46 /* SYPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPDefines.h; sourceTree = "<group>"; };
 		9B586FB4159D7C6D00D56F46 /* SYPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPLog.h; sourceTree = "<group>"; };
 		9B586FB5159D7C6D00D56F46 /* SYPLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPLog.m; sourceTree = "<group>"; };
-		9B586FED159D8F6A00D56F46 /* NSString+SYPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYPFramework.h"; sourceTree = "<group>"; };
-		9B586FEE159D8F6A00D56F46 /* NSString+SYPFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYPFramework.m"; sourceTree = "<group>"; };
+		9BE5B709159D9EE60000B126 /* NSString+SYPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYPFramework.h"; sourceTree = "<group>"; };
+		9BE5B70A159D9EE60000B126 /* NSString+SYPFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYPFramework.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 		9B586FB8159D7D3800D56F46 /* Extend */ = {
 			isa = PBXGroup;
 			children = (
-				9B586FED159D8F6A00D56F46 /* NSString+SYPFramework.h */,
-				9B586FEE159D8F6A00D56F46 /* NSString+SYPFramework.m */,
+				9BE5B709159D9EE60000B126 /* NSString+SYPFramework.h */,
+				9BE5B70A159D9EE60000B126 /* NSString+SYPFramework.m */,
 			);
 			name = Extend;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0B57E3159D5B38002C720C /* SYPFrameWork.h in Headers */,
-				9B586FEF159D8F6A00D56F46 /* NSString+SYPFramework.h in Headers */,
 				9B586FAB159D7AD700D56F46 /* SYPSingleton.h in Headers */,
 				9B586FB1159D7B2600D56F46 /* SYPDefines.h in Headers */,
 				9B586FB6159D7C6D00D56F46 /* SYPLog.h in Headers */,
+				9BE5B70D159D9EE60000B126 /* NSString+SYPFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,10 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B586FF7159D96B900D56F46 /* NSString+SYPFramework.m in Sources */,
 				9B0B57E4159D5B38002C720C /* SYPFrameWork.m in Sources */,
 				9B586FAC159D7AD700D56F46 /* SYPSingleton.m in Sources */,
 				9B586FB7159D7C6D00D56F46 /* SYPLog.m in Sources */,
+				9BE5B70E159D9EE60000B126 /* NSString+SYPFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

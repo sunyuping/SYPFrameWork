@@ -1,6 +1,6 @@
 //
 //  SYPAppDelegate.m
-//  TestSYPFrameWork
+//  TestSYPFramework
 //
 //  Created by 玉平 孙 on 12-6-29.
 //  Copyright (c) 2012年 RenRen.com. All rights reserved.
@@ -8,7 +8,6 @@
 
 #import "SYPAppDelegate.h"
 #import "SYPFrameWork/SYPFrameWork.h"
-#import "SYPFrameWork/class/NSString+SYPFramework.h"
 @implementation SYPAppDelegate
 
 @synthesize window = _window;
@@ -25,9 +24,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     SYPFrameWork *aa = [[SYPFrameWork alloc] init];
     [aa TestShow];
     [aa release];
+    
     return YES;
 }
 

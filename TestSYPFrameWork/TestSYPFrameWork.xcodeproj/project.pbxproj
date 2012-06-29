@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B0B57FD159D5CE2002C720C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0B57FC159D5CE2002C720C /* UIKit.framework */; };
-		9B0B57FF159D5CE2002C720C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0B57FE159D5CE2002C720C /* Foundation.framework */; };
-		9B0B5801159D5CE2002C720C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0B5800159D5CE2002C720C /* CoreGraphics.framework */; };
-		9B0B5807159D5CE2002C720C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B0B5805159D5CE2002C720C /* InfoPlist.strings */; };
-		9B0B5809159D5CE2002C720C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B5808159D5CE2002C720C /* main.m */; };
-		9B0B580D159D5CE2002C720C /* SYPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B580C159D5CE2002C720C /* SYPAppDelegate.m */; };
-		9B586FD6159D815000D56F46 /* SYPFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B586FD0159D810500D56F46 /* SYPFrameWork.framework */; };
+		9BA8281E159D9F4500CEA110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8281D159D9F4500CEA110 /* UIKit.framework */; };
+		9BA82820159D9F4500CEA110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8281F159D9F4500CEA110 /* Foundation.framework */; };
+		9BA82822159D9F4500CEA110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82821159D9F4500CEA110 /* CoreGraphics.framework */; };
+		9BA82828159D9F4500CEA110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BA82826159D9F4500CEA110 /* InfoPlist.strings */; };
+		9BA8282A159D9F4500CEA110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA82829159D9F4500CEA110 /* main.m */; };
+		9BA8282E159D9F4500CEA110 /* SYPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8282D159D9F4500CEA110 /* SYPAppDelegate.m */; };
+		9BA8283D159D9F5400CEA110 /* SYPFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8283C159D9F4C00CEA110 /* SYPFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9B586FCF159D810500D56F46 /* PBXContainerItemProxy */ = {
+		9BA8283B159D9F4C00CEA110 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9B586FC8159D810400D56F46 /* SYPFrameWork.xcodeproj */;
+			containerPortal = 9BA82834159D9F4C00CEA110 /* SYPFrameWork.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9B0B5785159D5AEE002C720C;
 			remoteInfo = SYPFrameWork;
@@ -27,87 +27,87 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B0B57F8159D5CE2002C720C /* TestSYPFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSYPFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B0B57FC159D5CE2002C720C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9B0B57FE159D5CE2002C720C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9B0B5800159D5CE2002C720C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9B0B5804159D5CE2002C720C /* TestSYPFrameWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSYPFrameWork-Info.plist"; sourceTree = "<group>"; };
-		9B0B5806159D5CE2002C720C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B0B5808159D5CE2002C720C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B0B580A159D5CE2002C720C /* TestSYPFrameWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSYPFrameWork-Prefix.pch"; sourceTree = "<group>"; };
-		9B0B580B159D5CE2002C720C /* SYPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPAppDelegate.h; sourceTree = "<group>"; };
-		9B0B580C159D5CE2002C720C /* SYPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPAppDelegate.m; sourceTree = "<group>"; };
-		9B586FC8159D810400D56F46 /* SYPFrameWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SYPFrameWork.xcodeproj; path = ../SYPFrameWork.xcodeproj; sourceTree = "<group>"; };
+		9BA82819159D9F4500CEA110 /* TestSYPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSYPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA8281D159D9F4500CEA110 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BA8281F159D9F4500CEA110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BA82821159D9F4500CEA110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BA82825159D9F4500CEA110 /* TestSYPFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSYPFramework-Info.plist"; sourceTree = "<group>"; };
+		9BA82827159D9F4500CEA110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BA82829159D9F4500CEA110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BA8282B159D9F4500CEA110 /* TestSYPFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSYPFramework-Prefix.pch"; sourceTree = "<group>"; };
+		9BA8282C159D9F4500CEA110 /* SYPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPAppDelegate.h; sourceTree = "<group>"; };
+		9BA8282D159D9F4500CEA110 /* SYPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPAppDelegate.m; sourceTree = "<group>"; };
+		9BA82834159D9F4C00CEA110 /* SYPFrameWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SYPFrameWork.xcodeproj; path = ../SYPFrameWork.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B0B57F5159D5CE2002C720C /* Frameworks */ = {
+		9BA82816159D9F4500CEA110 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B586FD6159D815000D56F46 /* SYPFrameWork.framework in Frameworks */,
-				9B0B57FD159D5CE2002C720C /* UIKit.framework in Frameworks */,
-				9B0B57FF159D5CE2002C720C /* Foundation.framework in Frameworks */,
-				9B0B5801159D5CE2002C720C /* CoreGraphics.framework in Frameworks */,
+				9BA8283D159D9F5400CEA110 /* SYPFrameWork.framework in Frameworks */,
+				9BA8281E159D9F4500CEA110 /* UIKit.framework in Frameworks */,
+				9BA82820159D9F4500CEA110 /* Foundation.framework in Frameworks */,
+				9BA82822159D9F4500CEA110 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B0B57ED159D5CE2002C720C = {
+		9BA8280E159D9F4500CEA110 = {
 			isa = PBXGroup;
 			children = (
-				9B0B5802159D5CE2002C720C /* TestSYPFrameWork */,
-				9B0B57FB159D5CE2002C720C /* Frameworks */,
-				9B0B57F9159D5CE2002C720C /* Products */,
+				9BA82823159D9F4500CEA110 /* TestSYPFramework */,
+				9BA8281C159D9F4500CEA110 /* Frameworks */,
+				9BA8281A159D9F4500CEA110 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9B0B57F9159D5CE2002C720C /* Products */ = {
+		9BA8281A159D9F4500CEA110 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B0B57F8159D5CE2002C720C /* TestSYPFrameWork.app */,
+				9BA82819159D9F4500CEA110 /* TestSYPFramework.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B0B57FB159D5CE2002C720C /* Frameworks */ = {
+		9BA8281C159D9F4500CEA110 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B586FC8159D810400D56F46 /* SYPFrameWork.xcodeproj */,
-				9B0B57FC159D5CE2002C720C /* UIKit.framework */,
-				9B0B57FE159D5CE2002C720C /* Foundation.framework */,
-				9B0B5800159D5CE2002C720C /* CoreGraphics.framework */,
+				9BA82834159D9F4C00CEA110 /* SYPFrameWork.xcodeproj */,
+				9BA8281D159D9F4500CEA110 /* UIKit.framework */,
+				9BA8281F159D9F4500CEA110 /* Foundation.framework */,
+				9BA82821159D9F4500CEA110 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9B0B5802159D5CE2002C720C /* TestSYPFrameWork */ = {
+		9BA82823159D9F4500CEA110 /* TestSYPFramework */ = {
 			isa = PBXGroup;
 			children = (
-				9B0B580B159D5CE2002C720C /* SYPAppDelegate.h */,
-				9B0B580C159D5CE2002C720C /* SYPAppDelegate.m */,
-				9B0B5803159D5CE2002C720C /* Supporting Files */,
+				9BA8282C159D9F4500CEA110 /* SYPAppDelegate.h */,
+				9BA8282D159D9F4500CEA110 /* SYPAppDelegate.m */,
+				9BA82824159D9F4500CEA110 /* Supporting Files */,
 			);
-			path = TestSYPFrameWork;
+			path = TestSYPFramework;
 			sourceTree = "<group>";
 		};
-		9B0B5803159D5CE2002C720C /* Supporting Files */ = {
+		9BA82824159D9F4500CEA110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B0B5804159D5CE2002C720C /* TestSYPFrameWork-Info.plist */,
-				9B0B5805159D5CE2002C720C /* InfoPlist.strings */,
-				9B0B5808159D5CE2002C720C /* main.m */,
-				9B0B580A159D5CE2002C720C /* TestSYPFrameWork-Prefix.pch */,
+				9BA82825159D9F4500CEA110 /* TestSYPFramework-Info.plist */,
+				9BA82826159D9F4500CEA110 /* InfoPlist.strings */,
+				9BA82829159D9F4500CEA110 /* main.m */,
+				9BA8282B159D9F4500CEA110 /* TestSYPFramework-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9B586FC9159D810400D56F46 /* Products */ = {
+		9BA82835159D9F4C00CEA110 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B586FD0159D810500D56F46 /* SYPFrameWork.framework */,
+				9BA8283C159D9F4C00CEA110 /* SYPFrameWork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,94 +115,94 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B0B57F7159D5CE2002C720C /* TestSYPFrameWork */ = {
+		9BA82818159D9F4500CEA110 /* TestSYPFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B0B5810159D5CE2002C720C /* Build configuration list for PBXNativeTarget "TestSYPFrameWork" */;
+			buildConfigurationList = 9BA82831159D9F4500CEA110 /* Build configuration list for PBXNativeTarget "TestSYPFramework" */;
 			buildPhases = (
-				9B0B57F4159D5CE2002C720C /* Sources */,
-				9B0B57F5159D5CE2002C720C /* Frameworks */,
-				9B0B57F6159D5CE2002C720C /* Resources */,
+				9BA82815159D9F4500CEA110 /* Sources */,
+				9BA82816159D9F4500CEA110 /* Frameworks */,
+				9BA82817159D9F4500CEA110 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TestSYPFrameWork;
-			productName = TestSYPFrameWork;
-			productReference = 9B0B57F8159D5CE2002C720C /* TestSYPFrameWork.app */;
+			name = TestSYPFramework;
+			productName = TestSYPFramework;
+			productReference = 9BA82819159D9F4500CEA110 /* TestSYPFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9B0B57EF159D5CE2002C720C /* Project object */ = {
+		9BA82810159D9F4500CEA110 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SYP;
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = RenRen.com;
 			};
-			buildConfigurationList = 9B0B57F2159D5CE2002C720C /* Build configuration list for PBXProject "TestSYPFrameWork" */;
+			buildConfigurationList = 9BA82813159D9F4500CEA110 /* Build configuration list for PBXProject "TestSYPFramework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9B0B57ED159D5CE2002C720C;
-			productRefGroup = 9B0B57F9159D5CE2002C720C /* Products */;
+			mainGroup = 9BA8280E159D9F4500CEA110;
+			productRefGroup = 9BA8281A159D9F4500CEA110 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9B586FC9159D810400D56F46 /* Products */;
-					ProjectRef = 9B586FC8159D810400D56F46 /* SYPFrameWork.xcodeproj */;
+					ProductGroup = 9BA82835159D9F4C00CEA110 /* Products */;
+					ProjectRef = 9BA82834159D9F4C00CEA110 /* SYPFrameWork.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				9B0B57F7159D5CE2002C720C /* TestSYPFrameWork */,
+				9BA82818159D9F4500CEA110 /* TestSYPFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9B586FD0159D810500D56F46 /* SYPFrameWork.framework */ = {
+		9BA8283C159D9F4C00CEA110 /* SYPFrameWork.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework.static;
 			path = SYPFrameWork.framework;
-			remoteRef = 9B586FCF159D810500D56F46 /* PBXContainerItemProxy */;
+			remoteRef = 9BA8283B159D9F4C00CEA110 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9B0B57F6159D5CE2002C720C /* Resources */ = {
+		9BA82817159D9F4500CEA110 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0B5807159D5CE2002C720C /* InfoPlist.strings in Resources */,
+				9BA82828159D9F4500CEA110 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9B0B57F4159D5CE2002C720C /* Sources */ = {
+		9BA82815159D9F4500CEA110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0B5809159D5CE2002C720C /* main.m in Sources */,
-				9B0B580D159D5CE2002C720C /* SYPAppDelegate.m in Sources */,
+				9BA8282A159D9F4500CEA110 /* main.m in Sources */,
+				9BA8282E159D9F4500CEA110 /* SYPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9B0B5805159D5CE2002C720C /* InfoPlist.strings */ = {
+		9BA82826159D9F4500CEA110 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B0B5806159D5CE2002C720C /* en */,
+				9BA82827159D9F4500CEA110 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9B0B580E159D5CE2002C720C /* Debug */ = {
+		9BA8282F159D9F4500CEA110 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		9B0B580F159D5CE2002C720C /* Release */ = {
+		9BA82830159D9F4500CEA110 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,31 +253,25 @@
 			};
 			name = Release;
 		};
-		9B0B5811159D5CE2002C720C /* Debug */ = {
+		9BA82832159D9F4500CEA110 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/..\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestSYPFrameWork/TestSYPFrameWork-Prefix.pch";
-				INFOPLIST_FILE = "TestSYPFrameWork/TestSYPFrameWork-Info.plist";
+				GCC_PREFIX_HEADER = "TestSYPFramework/TestSYPFramework-Prefix.pch";
+				INFOPLIST_FILE = "TestSYPFramework/TestSYPFramework-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		9B0B5812159D5CE2002C720C /* Release */ = {
+		9BA82833159D9F4500CEA110 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/..\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestSYPFrameWork/TestSYPFrameWork-Prefix.pch";
-				INFOPLIST_FILE = "TestSYPFrameWork/TestSYPFrameWork-Info.plist";
+				GCC_PREFIX_HEADER = "TestSYPFramework/TestSYPFramework-Prefix.pch";
+				INFOPLIST_FILE = "TestSYPFramework/TestSYPFramework-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,25 +280,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B0B57F2159D5CE2002C720C /* Build configuration list for PBXProject "TestSYPFrameWork" */ = {
+		9BA82813159D9F4500CEA110 /* Build configuration list for PBXProject "TestSYPFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B0B580E159D5CE2002C720C /* Debug */,
-				9B0B580F159D5CE2002C720C /* Release */,
+				9BA8282F159D9F4500CEA110 /* Debug */,
+				9BA82830159D9F4500CEA110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B0B5810159D5CE2002C720C /* Build configuration list for PBXNativeTarget "TestSYPFrameWork" */ = {
+		9BA82831159D9F4500CEA110 /* Build configuration list for PBXNativeTarget "TestSYPFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B0B5811159D5CE2002C720C /* Debug */,
-				9B0B5812159D5CE2002C720C /* Release */,
+				9BA82832159D9F4500CEA110 /* Debug */,
+				9BA82833159D9F4500CEA110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9B0B57EF159D5CE2002C720C /* Project object */;
+	rootObject = 9BA82810159D9F4500CEA110 /* Project object */;
 }

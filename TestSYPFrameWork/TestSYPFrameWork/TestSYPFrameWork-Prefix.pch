@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'TestSYPFrameWork' target in the 'TestSYPFrameWork' project
+// Prefix header for all source files of the 'TestSYPFramework' target in the 'TestSYPFramework' project
 //
 
 #import <Availability.h>
