@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4D2D9F15A1956C0010A9FE /* SYPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D2D9E15A1956C0010A9FE /* SYPImagePickerController.m */; };
 		9BA8281E159D9F4500CEA110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8281D159D9F4500CEA110 /* UIKit.framework */; };
 		9BA82820159D9F4500CEA110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8281F159D9F4500CEA110 /* Foundation.framework */; };
 		9BA82822159D9F4500CEA110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82821159D9F4500CEA110 /* CoreGraphics.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B4D2D9D15A1956C0010A9FE /* SYPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SYPImagePickerController.h; sourceTree = "<group>"; };
+		9B4D2D9E15A1956C0010A9FE /* SYPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPImagePickerController.m; sourceTree = "<group>"; };
 		9BA82819159D9F4500CEA110 /* TestSYPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSYPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA8281D159D9F4500CEA110 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BA8281F159D9F4500CEA110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 				9BA8282D159D9F4500CEA110 /* SYPAppDelegate.m */,
 				9BA82C88159DB25800CEA110 /* SYPTestGPUImageViewController.h */,
 				9BA82C89159DB25800CEA110 /* SYPTestGPUImageViewController.m */,
+				9B4D2D9D15A1956C0010A9FE /* SYPImagePickerController.h */,
+				9B4D2D9E15A1956C0010A9FE /* SYPImagePickerController.m */,
 				9BA82824159D9F4500CEA110 /* Supporting Files */,
 			);
 			path = TestSYPFramework;
@@ -249,6 +254,7 @@
 				9BA8282A159D9F4500CEA110 /* main.m in Sources */,
 				9BA8282E159D9F4500CEA110 /* SYPAppDelegate.m in Sources */,
 				9BA82C8A159DB25800CEA110 /* SYPTestGPUImageViewController.m in Sources */,
+				9B4D2D9F15A1956C0010A9FE /* SYPImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
