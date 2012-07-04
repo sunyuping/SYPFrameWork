@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		9B4D2D9F15A1956C0010A9FE /* SYPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D2D9E15A1956C0010A9FE /* SYPImagePickerController.m */; };
-=======
 		9B426607159E14C1004BDEC5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B426606159E14C1004BDEC5 /* libz.dylib */; };
 		9B426609159E14C8004BDEC5 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B426608159E14C8004BDEC5 /* libc++.dylib */; };
->>>>>>> ~
+		9B4D2D9F15A1956C0010A9FE /* SYPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D2D9E15A1956C0010A9FE /* SYPImagePickerController.m */; };
 		9BA8281E159D9F4500CEA110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8281D159D9F4500CEA110 /* UIKit.framework */; };
 		9BA82820159D9F4500CEA110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA8281F159D9F4500CEA110 /* Foundation.framework */; };
 		9BA82822159D9F4500CEA110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA82821159D9F4500CEA110 /* CoreGraphics.framework */; };
@@ -47,13 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		9B4D2D9D15A1956C0010A9FE /* SYPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SYPImagePickerController.h; sourceTree = "<group>"; };
-		9B4D2D9E15A1956C0010A9FE /* SYPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPImagePickerController.m; sourceTree = "<group>"; };
-=======
 		9B426606159E14C1004BDEC5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		9B426608159E14C8004BDEC5 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
->>>>>>> ~
+		9B4D2D9D15A1956C0010A9FE /* SYPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPImagePickerController.h; sourceTree = "<group>"; };
+		9B4D2D9E15A1956C0010A9FE /* SYPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPImagePickerController.m; sourceTree = "<group>"; };
 		9BA82819159D9F4500CEA110 /* TestSYPFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSYPFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA8281D159D9F4500CEA110 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BA8281F159D9F4500CEA110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
