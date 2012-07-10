@@ -11,11 +11,12 @@
 @interface SYPImagePickerController : UIViewController{
     GPUImageStillCamera *stillCamera;
     GPUImageOutput<GPUImageInput> *filter;
-    
+    GPUImageGammaFilter *currentFilter;
     //照片来源
 	UIImagePickerControllerSourceType _sourceType;
     
     UIButton *photoCaptureButton;
+    UIScrollView *effects;
 }
 
 @end
