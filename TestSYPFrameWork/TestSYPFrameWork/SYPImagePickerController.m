@@ -54,11 +54,11 @@
     [effects setFrame:CGRectMake(0, 460-50, 320, 50)];
     
     NSInteger count = 10;
-    NSInteger y = 0;
+    NSInteger x = 0;
     for (int i=0 ; i<count; i++) {
-        y = i*50;
+        x = i*50;
         UIButton *oneeffect = [UIButton buttonWithType:UIButtonTypeCustom];
-        [oneeffect setFrame:CGRectMake(0, y, 50, 50)];
+        [oneeffect setFrame:CGRectMake(x, 0, 50, 50)];
         [oneeffect setBackgroundColor:[UIColor yellowColor]];
         [oneeffect setTitle:@"效果" forState:UIControlStateNormal];
         oneeffect.tag = i+1;

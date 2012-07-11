@@ -199,7 +199,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = RenRen.com;
 			};
-			buildConfigurationList = 9BA82813159D9F4500CEA110 /* Build configuration list for PBXProject "TestSYPFrameWork" */;
+			buildConfigurationList = 9BA82813159D9F4500CEA110 /* Build configuration list for PBXProject "TestSYPFramework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -358,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BA82813159D9F4500CEA110 /* Build configuration list for PBXProject "TestSYPFrameWork" */ = {
+		9BA82813159D9F4500CEA110 /* Build configuration list for PBXProject "TestSYPFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BA8282F159D9F4500CEA110 /* Debug */,
