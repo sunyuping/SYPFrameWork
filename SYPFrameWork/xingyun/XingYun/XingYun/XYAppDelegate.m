@@ -1,20 +1,14 @@
 //
-//  SYPAppDelegate.m
-//  TestSYPFramework
+//  XYAppDelegate.m
+//  XingYun
 //
-//  Created by 玉平 孙 on 12-6-29.
-//  Copyright (c) 2012年 RenRen.com. All rights reserved.
+//  Created by sunyuping on 13-1-6.
+//  Copyright (c) 2013年 sunyuping. All rights reserved.
 //
 
-#import "SYPAppDelegate.h"
-#import "SYPFrameWork/SYPFrameWork.h"
-#import "SYPTestGPUImageViewController.h"
+#import "XYAppDelegate.h"
 
-#import "SYPImagePickerController.h"
-
-@implementation SYPAppDelegate
-
-@synthesize window = _window;
+@implementation XYAppDelegate
 
 - (void)dealloc
 {
@@ -27,13 +21,6 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    SYPImagePickerController *rootViewController = [[SYPImagePickerController alloc] init];
-    [self.window addSubview:rootViewController.view];
-    
-    SYPFrameWork *aa = [[SYPFrameWork alloc] init];
-    [aa TestShow];
-    [aa release];
-    
     [self.window makeKeyAndVisible];
     return YES;
 }

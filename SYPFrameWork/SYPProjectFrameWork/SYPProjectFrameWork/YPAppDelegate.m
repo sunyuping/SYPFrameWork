@@ -7,7 +7,6 @@
 //
 
 #import "YPAppDelegate.h"
-#import "UIImage+PKImage.h"
 
 
 
@@ -24,7 +23,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    UIImageView *test = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 100, 200)];
+    UIImageView *test = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 300, 200)];
     [test setBackgroundColor:[UIColor redColor]];
     [test setImage:[UIImage imageForKey:@"meinv"]];
     [self.window addSubview:test];

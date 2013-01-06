@@ -88,11 +88,6 @@
 		9B1975C4168C7F4C004A4DF6 = {
 			isa = PBXGroup;
 			children = (
-				9BB3242C1699A91100235F50 /* Security.framework */,
-				9BB3242A1699A8F200235F50 /* SystemConfiguration.framework */,
-				9BB324281699A8B800235F50 /* MapKit.framework */,
-				9BB324261699A8B100235F50 /* ImageIO.framework */,
-				9BB324241699A8AC00235F50 /* CFNetwork.framework */,
 				9B1975F0168C7F65004A4DF6 /* framework */,
 				9B1975D9168C7F4C004A4DF6 /* SYPProjectFrameWork */,
 				9B1975D2168C7F4C004A4DF6 /* Frameworks */,
@@ -111,6 +106,11 @@
 		9B1975D2168C7F4C004A4DF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BB3242C1699A91100235F50 /* Security.framework */,
+				9BB3242A1699A8F200235F50 /* SystemConfiguration.framework */,
+				9BB324281699A8B800235F50 /* MapKit.framework */,
+				9BB324261699A8B100235F50 /* ImageIO.framework */,
+				9BB324241699A8AC00235F50 /* CFNetwork.framework */,
 				9B1975D3168C7F4C004A4DF6 /* UIKit.framework */,
 				9B1975D5168C7F4C004A4DF6 /* Foundation.framework */,
 				9B1975D7168C7F4C004A4DF6 /* CoreGraphics.framework */,
