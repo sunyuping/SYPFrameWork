@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/Extensions
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/Extensions/README.txt
+END
+DispatchQueueLogFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/Extensions/DispatchQueueLogFormatter.h
+END
+ContextFilterLogFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/Extensions/ContextFilterLogFormatter.h
+END
+DispatchQueueLogFormatter.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/Extensions/DispatchQueueLogFormatter.m
+END
+ContextFilterLogFormatter.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/Extensions/ContextFilterLogFormatter.m
+END

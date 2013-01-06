@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/wap/!svn/ver/121118/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories
+END
+NSDictionary+RequestEncoding.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/wap/!svn/ver/121118/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSDictionary+RequestEncoding.m
+END
+NSDate+RFC1123.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/wap/!svn/ver/118316/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSDate+RFC1123.h
+END
+NSData+Base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/wap/!svn/ver/118316/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSData+Base64.h
+END
+NSString+MKNetworkKitAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/wap/!svn/ver/118316/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.h
+END
+NSDate+RFC1123.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/wap/!svn/ver/120661/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSDate+RFC1123.m
+END
+NSData+Base64.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/wap/!svn/ver/120661/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSData+Base64.m
+END
+NSString+MKNetworkKitAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/wap/!svn/ver/120661/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.m
+END
+NSDictionary+RequestEncoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/wap/!svn/ver/118316/x2/ios/trunk/x2/service/service/ThirdPart/MKNetworkKit/Categories/NSDictionary+RequestEncoding.h
+END

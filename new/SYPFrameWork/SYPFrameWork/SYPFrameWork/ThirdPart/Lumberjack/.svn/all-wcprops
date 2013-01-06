@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack
+END
+DDLog.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDLog.m
+END
+DDTTYLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDTTYLogger.h
+END
+DDASLLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDASLLogger.h
+END
+DDFileLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDFileLogger.h
+END
+DDAbstractDatabaseLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDAbstractDatabaseLogger.h
+END
+DDTTYLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDTTYLogger.m
+END
+DDASLLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDASLLogger.m
+END
+DDFileLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDFileLogger.m
+END
+DDAbstractDatabaseLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDAbstractDatabaseLogger.m
+END
+DDLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/118316/x2/ios/trunk/x2/core/core/ThirdPart/Lumberjack/DDLog.h
+END

@@ -1,0 +1,40 @@
+10
+
+dir
+128356
+http://svn.d.xiaonei.com/wap/x2/ios/trunk/x2/core/core/ThirdPart
+http://svn.d.xiaonei.com/wap
+
+
+
+2012-11-23T11:03:53.826890Z
+118316
+libin.tian@XIAONEI.OPI.COM
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a2c5b95e-2b32-48dd-8ad9-e7368d44711b
+
+FMDB
+dir
+
+Lumberjack
+dir
+
+ZipArchive
+dir
+
+regexkitlite
+dir
+
