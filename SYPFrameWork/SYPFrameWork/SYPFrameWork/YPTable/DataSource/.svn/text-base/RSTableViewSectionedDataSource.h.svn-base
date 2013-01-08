@@ -1,0 +1,19 @@
+//
+//  RSSectionedDataSource.h
+//  RenrenSixin
+//
+//  Created by zhongsheng on 12-5-31.
+//  Copyright (c) 2012年 renren. All rights reserved.
+//
+
+#import "RSTableViewDataSource.h"
+#import "RSTableViewSectionObject.h"
+
+@interface RSTableViewSectionedDataSource : RSTableViewDataSource {
+	NSMutableArray *_sections;
+}
+
+@property (nonatomic, retain) NSMutableArray *sections;			// RSSectionObject对象数组
+@property (nonatomic, assign) NSMutableArray *firstSectionItems;	// 返回第一个section的items数组
+
+@end

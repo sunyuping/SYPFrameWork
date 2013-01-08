@@ -1,0 +1,28 @@
+//
+//  RSTableViewLoadMoreItem.m
+//  RenrenSixin
+//
+//  Created by feng zijie on 12-6-6.
+//  Copyright (c) 2012年 renren. All rights reserved.
+//
+
+#import "RSTableViewLoadMoreItem.h"
+
+@implementation RSTableViewLoadMoreItem
+@synthesize isLoading = _isLoading;
+@synthesize title = _title;
+
++ (RSTableViewLoadMoreItem *)itemWithTitle:(NSString *)title
+{
+	RSTableViewLoadMoreItem *item = [[[RSTableViewLoadMoreItem alloc] init] autorelease];
+	item.title = title;
+	return item;
+}
+
+- (void)dealloc
+{
+    RELEASE(_title);
+    [super dealloc];
+}
+
+@end

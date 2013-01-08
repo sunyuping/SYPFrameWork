@@ -16,6 +16,10 @@
 		9B1975E6168C7F4C004A4DF6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1975E5168C7F4C004A4DF6 /* Default.png */; };
 		9B1975E8168C7F4C004A4DF6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1975E7168C7F4C004A4DF6 /* Default@2x.png */; };
 		9B1975EA168C7F4C004A4DF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1975E9168C7F4C004A4DF6 /* Default-568h@2x.png */; };
+		9B2A0348169C1FDB00EDC6C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2A0347169C1FDB00EDC6C3 /* QuartzCore.framework */; };
+		9B2A0358169C25F500EDC6C3 /* YPTableviewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A0357169C25F500EDC6C3 /* YPTableviewDemoViewController.m */; };
+		9B2A035B169C26A100EDC6C3 /* YPDataSourceDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A035A169C26A100EDC6C3 /* YPDataSourceDemo.m */; };
+		9B2A035E169C27F800EDC6C3 /* YPCellDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A035D169C27F700EDC6C3 /* YPCellDemo.m */; };
 		9BB323EB1699907C00235F50 /* style_light.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BB323EA1699907C00235F50 /* style_light.bundle */; };
 		9BB3241B1699A81D00235F50 /* libSYPFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1975F9168C7F6D004A4DF6 /* libSYPFrameWork.a */; };
 		9BB324251699A8AC00235F50 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB324241699A8AC00235F50 /* CFNetwork.framework */; };
@@ -57,6 +61,13 @@
 		9B1975E7168C7F4C004A4DF6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9B1975E9168C7F4C004A4DF6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9B1975F1168C7F6D004A4DF6 /* SYPFrameWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SYPFrameWork.xcodeproj; path = ../SYPFrameWork/SYPFrameWork.xcodeproj; sourceTree = "<group>"; };
+		9B2A0347169C1FDB00EDC6C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B2A0356169C25F500EDC6C3 /* YPTableviewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPTableviewDemoViewController.h; sourceTree = "<group>"; };
+		9B2A0357169C25F500EDC6C3 /* YPTableviewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPTableviewDemoViewController.m; sourceTree = "<group>"; };
+		9B2A0359169C26A100EDC6C3 /* YPDataSourceDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPDataSourceDemo.h; sourceTree = "<group>"; };
+		9B2A035A169C26A100EDC6C3 /* YPDataSourceDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPDataSourceDemo.m; sourceTree = "<group>"; };
+		9B2A035C169C27F700EDC6C3 /* YPCellDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCellDemo.h; sourceTree = "<group>"; };
+		9B2A035D169C27F700EDC6C3 /* YPCellDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCellDemo.m; sourceTree = "<group>"; };
 		9BB323EA1699907C00235F50 /* style_light.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = style_light.bundle; sourceTree = "<group>"; };
 		9BB324241699A8AC00235F50 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9BB324261699A8B100235F50 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
@@ -70,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2A0348169C1FDB00EDC6C3 /* QuartzCore.framework in Frameworks */,
 				9BB3242D1699A91100235F50 /* Security.framework in Frameworks */,
 				9BB3242B1699A8F300235F50 /* SystemConfiguration.framework in Frameworks */,
 				9BB324291699A8B800235F50 /* MapKit.framework in Frameworks */,
@@ -106,6 +118,7 @@
 		9B1975D2168C7F4C004A4DF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B2A0347169C1FDB00EDC6C3 /* QuartzCore.framework */,
 				9BB3242C1699A91100235F50 /* Security.framework */,
 				9BB3242A1699A8F200235F50 /* SystemConfiguration.framework */,
 				9BB324281699A8B800235F50 /* MapKit.framework */,
@@ -121,6 +134,7 @@
 		9B1975D9168C7F4C004A4DF6 /* SYPProjectFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				9B2A0351169C23D800EDC6C3 /* class */,
 				9B1975E2168C7F4C004A4DF6 /* YPAppDelegate.h */,
 				9B1975E3168C7F4C004A4DF6 /* YPAppDelegate.m */,
 				9B1975DA168C7F4C004A4DF6 /* Supporting Files */,
@@ -157,6 +171,27 @@
 				9B1975F9168C7F6D004A4DF6 /* libSYPFrameWork.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9B2A0351169C23D800EDC6C3 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				9B2A0352169C23EA00EDC6C3 /* demo */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		9B2A0352169C23EA00EDC6C3 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				9B2A0356169C25F500EDC6C3 /* YPTableviewDemoViewController.h */,
+				9B2A0357169C25F500EDC6C3 /* YPTableviewDemoViewController.m */,
+				9B2A0359169C26A100EDC6C3 /* YPDataSourceDemo.h */,
+				9B2A035A169C26A100EDC6C3 /* YPDataSourceDemo.m */,
+				9B2A035C169C27F700EDC6C3 /* YPCellDemo.h */,
+				9B2A035D169C27F700EDC6C3 /* YPCellDemo.m */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +280,9 @@
 			files = (
 				9B1975E0168C7F4C004A4DF6 /* main.m in Sources */,
 				9B1975E4168C7F4C004A4DF6 /* YPAppDelegate.m in Sources */,
+				9B2A0358169C25F500EDC6C3 /* YPTableviewDemoViewController.m in Sources */,
+				9B2A035B169C26A100EDC6C3 /* YPDataSourceDemo.m in Sources */,
+				9B2A035E169C27F800EDC6C3 /* YPCellDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

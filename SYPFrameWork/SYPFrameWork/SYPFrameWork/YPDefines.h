@@ -40,13 +40,34 @@
 #define YPEXTERN	        extern __attribute__((visibility ("default")))
 #endif
 
-#define YPRelease(object)   do {if (object) {[object release];}object=nil;}while(0);
+#define YPRelease(_object)   do {if (_object) {[_object release];}_object=nil;}while(0);
 
-#define YPCFRelease(object) do {if (object!=NULL) {CFRelease(object);}object=NULL;}while(0);
+#define YPCFRelease(_object) do {if (_object!=NULL) {CFRelease(_object);}_object=NULL;}while(0);
 
 
 #ifndef NULL
 #define NULL nil
 #endif
+
+#define RELEASE(__POINTER) { if (nil != (__POINTER)) { CFRelease(__POINTER); __POINTER = nil; } }
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f \
+alpha:(a)]
+
+//默认多语言表
+#define RS_CURRENT_LANGUAGE_TABLE  [[NSUserDefaults standardUserDefaults] objectForKey:@"LanguageSwtich"]?[[NSUserDefaults standardUserDefaults] objectForKey:@"LanguageSwtich"]:@"zh-Hans"
+
+//系统当前语言
+#define SYSTEM_NOW_LANGUAGE [[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"] objectAtIndex:0]
+
+//程序语言设置
+#define RS_LANGUAGE_TYPE_SET(value)     [[NSUserDefaults standardUserDefaults] setValue:value forKey:@"LanguageSwtich"]
+
+
+
+
+
 
 #endif
