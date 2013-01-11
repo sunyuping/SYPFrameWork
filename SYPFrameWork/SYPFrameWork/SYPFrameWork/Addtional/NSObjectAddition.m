@@ -53,5 +53,56 @@
     [desc appendString:@">"];
     return desc;
 }
-
+- (NSString *)xpDescription{
+    NSString *className = NSStringFromClass([self class]);
+    
+    const char *cClassName = [className UTF8String];
+    
+    id theClass = objc_getClass(cClassName);
+    
+    unsigned int outCount, i;
+    
+    objc_property_t *properties = class_copyPropertyList(theClass, &outCount);
+    
+    NSMutableArray *propertyNames = [[NSMutableArray alloc] initWithCapacity:1];
+    
+    for (i = 0; i < outCount; i++) {
+        
+        objc_property_t property = properties[i];
+        
+        NSString *propertyNameString = [[NSString alloc] initWithCString:property_getName(property) encoding:NSUTF8StringEncoding];
+        
+        [propertyNames addObject:propertyNameString];
+        
+        [propertyNameString release];
+        
+        NSLog(@"%s %s\n", property_getName(property), property_getAttributes(property));
+        
+    }
+    
+    NSMutableDictionary *finalDict = [NSMutableDictionary dictionaryWithCapacity:10];
+    
+    for(NSString *key in propertyNames)
+    {
+        SEL selector = NSSelectorFromString(key);
+        id value = [self performSelector:selector];
+        
+        if (value == nil)
+        {
+            value = [NSNull null];
+        }
+        
+        [finalDict setObject:value forKey:key];
+    }
+    
+    [propertyNames release];
+    
+    return [NSString stringWithFormat:@"%@",finalDict];
+//    NSString *retString = [[CJSONSerializer serializer] serializeDictionary:finalDict];
+//    
+//    [finalDict release];
+    
+//    return retString;
+    
+}
 @end

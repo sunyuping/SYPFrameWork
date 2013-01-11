@@ -22,5 +22,7 @@
 
 
 - (NSString *)rsDescription;
+- (NSString *)xpDescription;
+
 
 @end

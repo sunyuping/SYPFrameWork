@@ -80,6 +80,8 @@
 		9BB323E416998DF400235F50 /* UIFont+PKFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB323CE169953AF00235F50 /* UIFont+PKFont.m */; };
 		9BB323E516998DF400235F50 /* UIImage+PKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB323D0169953AF00235F50 /* UIImage+PKImage.m */; };
 		9BB323E616998DF400235F50 /* PKResManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB323D2169953AF00235F50 /* PKResManager.m */; };
+		9BBE6A76169E6C1B006658DD /* UIImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBE6A74169E6C1B006658DD /* UIImageAdditions.h */; };
+		9BBE6A77169E6C1B006658DD /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE6A75169E6C1B006658DD /* UIImageAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -216,6 +218,8 @@
 		9BB323D1169953AF00235F50 /* PKResManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKResManager.h; sourceTree = "<group>"; };
 		9BB323D2169953AF00235F50 /* PKResManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKResManager.m; sourceTree = "<group>"; };
 		9BB323D3169953AF00235F50 /* PKResManagerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKResManagerKit.h; sourceTree = "<group>"; };
+		9BBE6A74169E6C1B006658DD /* UIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAdditions.h; sourceTree = "<group>"; };
+		9BBE6A75169E6C1B006658DD /* UIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +393,8 @@
 				9B2A034A169C209B00EDC6C3 /* UIWindowAddition.m */,
 				9B2A034D169C210C00EDC6C3 /* NSObjectAddition.h */,
 				9B2A034E169C210D00EDC6C3 /* NSObjectAddition.m */,
+				9BBE6A74169E6C1B006658DD /* UIImageAdditions.h */,
+				9BBE6A75169E6C1B006658DD /* UIImageAdditions.m */,
 			);
 			path = Addtional;
 			sourceTree = "<group>";
@@ -571,6 +577,7 @@
 				9B2A0345169C1EAF00EDC6C3 /* SVPullToRefresh.h in Headers */,
 				9B2A034B169C209C00EDC6C3 /* UIWindowAddition.h in Headers */,
 				9B2A034F169C210D00EDC6C3 /* NSObjectAddition.h in Headers */,
+				9BBE6A76169E6C1B006658DD /* UIImageAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +680,7 @@
 				9B2A0346169C1EAF00EDC6C3 /* SVPullToRefresh.m in Sources */,
 				9B2A034C169C209C00EDC6C3 /* UIWindowAddition.m in Sources */,
 				9B2A0350169C210D00EDC6C3 /* NSObjectAddition.m in Sources */,
+				9BBE6A77169E6C1B006658DD /* UIImageAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

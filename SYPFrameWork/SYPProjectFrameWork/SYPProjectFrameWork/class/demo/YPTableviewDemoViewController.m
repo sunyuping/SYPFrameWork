@@ -34,6 +34,9 @@
     self.tableView.showsPullToRefresh = YES;
     
     self.tableView.showsVerticalScrollIndicator = YES;
+    YPSingleton *tmp = [YPSingleton defaultSingleton];
+    [tmp xpDescription];
+    [tmp rsDescription];
 }
 
 - (void)didReceiveMemoryWarning
