@@ -772,7 +772,7 @@
 				9B197592168C7964004A4DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9B197593168C7964004A4DF6 /* Build configuration list for PBXNativeTarget "SYPFrameWork" */ = {
 			isa = XCConfigurationList;
@@ -781,7 +781,7 @@
 				9B197595168C7964004A4DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

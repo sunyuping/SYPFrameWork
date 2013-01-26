@@ -21,12 +21,12 @@
 		9B2A035B169C26A100EDC6C3 /* YPDataSourceDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A035A169C26A100EDC6C3 /* YPDataSourceDemo.m */; };
 		9B2A035E169C27F800EDC6C3 /* YPCellDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A035D169C27F700EDC6C3 /* YPCellDemo.m */; };
 		9BB323EB1699907C00235F50 /* style_light.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BB323EA1699907C00235F50 /* style_light.bundle */; };
-		9BB3241B1699A81D00235F50 /* libSYPFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1975F9168C7F6D004A4DF6 /* libSYPFrameWork.a */; };
 		9BB324251699A8AC00235F50 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB324241699A8AC00235F50 /* CFNetwork.framework */; };
 		9BB324271699A8B100235F50 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB324261699A8B100235F50 /* ImageIO.framework */; };
 		9BB324291699A8B800235F50 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB324281699A8B800235F50 /* MapKit.framework */; };
 		9BB3242B1699A8F300235F50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB3242A1699A8F200235F50 /* SystemConfiguration.framework */; };
 		9BB3242D1699A91100235F50 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB3242C1699A91100235F50 /* Security.framework */; };
+		C323558D16A3E51100721AFD /* libSYPFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1975F9168C7F6D004A4DF6 /* libSYPFrameWork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 			remoteGlobalIDString = 9B197585168C7964004A4DF6;
 			remoteInfo = SYPFrameWork;
 		};
-		9BB323EC1699A20700235F50 /* PBXContainerItemProxy */ = {
+		C323558B16A3E50A00721AFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9B1975F1168C7F6D004A4DF6 /* SYPFrameWork.xcodeproj */;
 			proxyType = 1;
@@ -81,13 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C323558D16A3E51100721AFD /* libSYPFrameWork.a in Frameworks */,
 				9B2A0348169C1FDB00EDC6C3 /* QuartzCore.framework in Frameworks */,
 				9BB3242D1699A91100235F50 /* Security.framework in Frameworks */,
 				9BB3242B1699A8F300235F50 /* SystemConfiguration.framework in Frameworks */,
 				9BB324291699A8B800235F50 /* MapKit.framework in Frameworks */,
 				9BB324271699A8B100235F50 /* ImageIO.framework in Frameworks */,
 				9BB324251699A8AC00235F50 /* CFNetwork.framework in Frameworks */,
-				9BB3241B1699A81D00235F50 /* libSYPFrameWork.a in Frameworks */,
 				9B1975D4168C7F4C004A4DF6 /* UIKit.framework in Frameworks */,
 				9B1975D6168C7F4C004A4DF6 /* Foundation.framework in Frameworks */,
 				9B1975D8168C7F4C004A4DF6 /* CoreGraphics.framework in Frameworks */,
@@ -208,7 +208,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9BB323ED1699A20700235F50 /* PBXTargetDependency */,
+				C323558C16A3E50A00721AFD /* PBXTargetDependency */,
 			);
 			name = SYPProjectFrameWork;
 			productName = SYPProjectFrameWork;
@@ -289,10 +289,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9BB323ED1699A20700235F50 /* PBXTargetDependency */ = {
+		C323558C16A3E50A00721AFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SYPFrameWork;
-			targetProxy = 9BB323EC1699A20700235F50 /* PBXContainerItemProxy */;
+			targetProxy = C323558B16A3E50A00721AFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -329,7 +329,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,7 +350,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
